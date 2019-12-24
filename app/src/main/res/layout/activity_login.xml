@@ -50,6 +50,8 @@
         android:layout_below="@id/editPassword"
         android:layout_marginTop="50dp"
         android:text="Login"
+        android:background="@drawable/button_login"
+        android:textSize="20dp"
         />
 
     <TextView

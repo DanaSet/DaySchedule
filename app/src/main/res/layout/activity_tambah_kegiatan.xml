@@ -91,22 +91,19 @@
         android:layout_below="@id/editWaktu"
         android:layout_marginTop="10dp"
         android:text="Tambahkan"
+        android:textSize="15dp"
+        android:background="@drawable/button_tambahkan"
         />
 
-    <Button
-        android:id="@+id/btnSelesai"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btnAdd"
-        android:layout_marginTop="3dp"
-        android:text="Selesai"/>
 
     <Button
         android:id="@+id/btnKembali"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btnSelesai"
-        android:layout_marginTop="3dp"
-        android:text="Kembali"/>
+        android:layout_below="@id/btnAdd"
+        android:layout_marginTop="10dp"
+        android:text="Kembali"
+        android:textSize="15sp"
+        android:background="@drawable/button_kembali"/>
 
 </RelativeLayout>

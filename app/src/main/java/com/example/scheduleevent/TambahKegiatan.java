@@ -21,7 +21,7 @@ import java.util.Calendar;
 public class TambahKegiatan extends AppCompatActivity {
     Cursor cursor;
     DataHelper dbHelper;
-    Button btnAdd, btnDone, btnBack;
+    Button btnAdd, btnBack;
     EditText addNomor, addNama, addKeterangan, addWaktu;
 
 
@@ -36,7 +36,6 @@ public class TambahKegiatan extends AppCompatActivity {
         addKeterangan = findViewById(R.id.editKeterangan);
         addWaktu = findViewById(R.id.editWaktu);
         btnAdd = findViewById(R.id.btnAdd);
-        btnDone = findViewById(R.id.btnSelesai);
         btnBack = findViewById(R.id.btnKembali);
 
         addWaktu.setOnClickListener(new View.OnClickListener() {
@@ -68,8 +67,6 @@ public class TambahKegiatan extends AppCompatActivity {
                 finish();
             }
         });
-
-        btnDone.setEnabled(false);
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
